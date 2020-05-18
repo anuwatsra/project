@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/namebord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:layout_marginLeft="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/btngeat"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/gear"
+                    android:layout_marginLeft="6dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Auto "
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ghostbg"
+            android:padding="30dp"
+            android:src="@drawable/rain" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ghostbg"
+            android:padding="30dp"
+            android:src="@drawable/grass" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/grass"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:layout_gravity="center"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/grass2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/grass3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fontapp"
+        android:text="ความชื่น"
+        android:layout_marginRight="60dp"/>
+
+    <TextView
+        android:id="@+id/grass4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fontapp"
+        android:text="ความสูง"
+        android:layout_marginLeft="60dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/settime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="กำหนดเวลา" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/buttonshowtime"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/time" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textsowtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="00:00 น." />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:id="@+id/on"
+            android:src="@drawable/time"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="ON"
+            android:textSize="9sp"
+            android:background="#7CB342"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:id="@+id/off"
+            android:src="@drawable/time"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="OFF"
+            android:textSize="9sp"
+            android:background="#E53935"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textViewshowbtnoffon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="เปิด-ปิดน้ำ" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/buttomNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:background="@color/whiteCardColor"
+            app:itemTextAppearanceActive="@style/BottomNavigationView.Active"
+            app:itemTextAppearanceInactive="@style/BottomNavigationView"
+            app:itemTextColor="#033333"
+            app:menu="@menu/buttomm_menu"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

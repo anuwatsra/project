@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_recent"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/call"
+        android:enabled="true"
+        android:icon="@drawable/contact"
+        android:title="Impart"/>
+    <item
+        android:id="@+id/about"
+        android:enabled="true"
+        android:icon="@drawable/user"
+        android:title="About us"/>
+
+    <item
+        android:id="@+id/item_end"
+        android:enabled="true"
+        android:icon="@drawable/logout"
+        android:title="Logout"/>
+</menu>

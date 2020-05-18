@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:gravity="center">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="234dp"
+        android:layout_height="234dp"
+        android:src="@drawable/grass" />
+
+    <TextView
+        android:id="@+id/grass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sprinker watering"
+        android:fontFamily="@font/fontapp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="ชื่อผู้ใช้งาน" />
+
+        <EditText
+            android:id="@+id/loginEmail"
+            style="@style/Theme.App.Base"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/ghost"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/textHintColorend"
+
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="รหัสผ่าน" />
+
+        <EditText
+            android:id="@+id/loginpaswd"
+            style="@style/Theme.App.Base"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/ghost"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/textHintColorend"
+            android:textSize="10dp"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogIn"
+        style="@style/loginButton"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#55BD3F"
+
+        android:text="เข้าสู่ระบบ" />
+
+    <Button
+        android:id="@+id/signup"
+        style="@style/loginButton"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#55BD3F"
+        android:text="สมัครบัญชีผู้ใช้งานใหม่"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="New Acount? Signup Here"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:textColor="#3F423F"
+
+        />
+
+</LinearLayout>

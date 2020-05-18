@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EB2020</color>
+    <color name="colorPrimaryDark">#F0F0F0</color>
+    <color name="colorAccent">#00A5FF</color>
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#2661FA</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+
+    <color name="whiteCardColor">#fff</color>
+    <color name="RedtextColorstart">#42C734</color>
+    <color name="RedtextColorend">#84F775</color>
+    <color name="textHintColorend">#9C9C9C</color>
+</resources>
